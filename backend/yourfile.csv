@@ -1,0 +1,2 @@
+colleague_name,colleague_email,clicked,answered,score,answers
+John Doe,john.doe@example.com,True,True,90,"['Answer1', 'Answer2']"

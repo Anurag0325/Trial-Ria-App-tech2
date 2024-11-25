@@ -98,7 +98,7 @@ export default {
 
 
         logout() {
-            fetch('https://trial-ria-app.onrender.com/logout', {
+            fetch('https://trial-ria-app-tech2.onrender.com/logout', {
             // fetch('http://127.0.0.1:5000/logout', {
                 method: 'POST',
                 headers: {

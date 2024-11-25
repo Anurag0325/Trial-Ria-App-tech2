@@ -65,7 +65,7 @@ export default {
             }
 
             try {
-                const response = await fetch('https://trial-ria-app.onrender.com/register', {
+                const response = await fetch('https://trial-ria-app-tech2.onrender.com/register', {
                 // const response = await fetch('http://127.0.0.1:5000/register', {
                     method: 'POST',
                     headers: {

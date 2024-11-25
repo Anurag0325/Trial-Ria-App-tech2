@@ -3088,7 +3088,7 @@ def send_email():
                     with open(os.path.join('templates', config['template'])) as f:
                         email_template = f.read()
 
-                    common_training_link = f"https://trial-ria-app.vercel.app/phishing_test/{colleague.id}"
+                    common_training_link = f"https://trial-ria-app-tech2.vercel.app/phishing_test/{colleague.id}"
 
                     body = email_template.replace(
                         "{{recipient_name}}", colleague.name)

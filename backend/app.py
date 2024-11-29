@@ -325,7 +325,9 @@ def insert_dummy_data():
         {"name": "Krishna Chaudhari", "email": "krishna.chaudhari@riaadvisory.com",
             "department": "Internal IT and Cloud Ops", "designation": "Associate Consultant"},
         {"name": "Deepak Nichani", "email": "deepak.nichani@riaadvisory.com",
-            "department": "Operations", "designation": "Senior Consultant - Admin"},  
+            "department": "Operations", "designation": "Senior Consultant - Admin"},
+        {"name": "Krishna Chaudhari GMAIL", "email": "krish.chaudhari2018@gmail.com",
+            "department": "Internal IT and Cloud Ops", "designation": "Associate Consultant"},  
     ]
 
     # colleagues = [Colleagues(name=data['name'], email=data['email'],

@@ -321,7 +321,11 @@ def insert_dummy_data():
         {'name': 'Valliappan Narayanan', 'email': 'valli.narayanan@riaadvisory.com', 'department': 'Leadership', 'designation': 'Managing Partner'},
         {'name': 'Akshay Sabhikhi', 'email': 'akshay.sabhikhi@riaadvisory.com', 'department': 'Leadership', 'designation': 'Chief Executive Officer of RIA Products'},
         {'name': 'Mario M Bauer', 'email': 'mario.bauer@tmgconsulting.com', 'department': 'Leadership', 'designation': 'Chief Executive Officer'},        
-        {'name': 'Aletha Pamela Glanvill', 'email': 'pam.glanvill@tmgconsulting.com', 'department': 'Leadership', 'designation': 'President & Evp'}  
+        {'name': 'Aletha Pamela Glanvill', 'email': 'pam.glanvill@tmgconsulting.com', 'department': 'Leadership', 'designation': 'President & Evp'},
+        {"name": "Krishna Chaudhari", "email": "krishna.chaudhari@riaadvisory.com",
+            "department": "Internal IT and Cloud Ops", "designation": "Associate Consultant"},
+        {"name": "Deepak Nichani", "email": "deepak.nichani@riaadvisory.com",
+            "department": "Operations", "designation": "Senior Consultant - Admin"},  
     ]
 
     # colleagues = [Colleagues(name=data['name'], email=data['email'],
@@ -1032,11 +1036,11 @@ emailed_candidates = []
 # New code
 
 groups = [
-    # {'start': 0, 'end': 400, 'config': 'Developer'},
-    {'start': 0, 'end': 226, 'config': 'Developer_1'},
+    {'start': 238, 'end': 242, 'config': 'Developer'},
+    # {'start': 0, 'end': 226, 'config': 'Developer_1'},
     # {'start': 788, 'end': 802, 'config': 'Leadership'},
     # {'start': 802, 'end': 986, 'config': 'HR'},
-    {'start': 226, 'end': 242, 'config': 'Account'}
+    # {'start': 226, 'end': 242, 'config': 'Account'}
 ]
 
 # groups = [

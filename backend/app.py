@@ -1277,8 +1277,8 @@ emailed_candidates = []
 # New code
 
 groups = [
-    {'start': 238, 'end': 242, 'config': 'Developer'},
-    # {'start': 0, 'end': 226, 'config': 'Developer_1'},
+    # {'start': 238, 'end': 242, 'config': 'Developer'},
+    {'start': 0, 'end': 226, 'config': 'Developer_1'},
     # {'start': 788, 'end': 802, 'config': 'Leadership'},
     # {'start': 238, 'end': 242, 'config': 'HR'},
     # {'start': 238, 'end': 242, 'config': 'Account'}

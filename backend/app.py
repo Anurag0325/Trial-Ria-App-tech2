@@ -1311,14 +1311,14 @@ department_config = {
         'email': os.getenv('DEVELOPER_EMAIL'),
         'password': os.getenv('DEVELOPER_PASSWORD'),
         'template': 'developer_template.html',
-        'subject': "Security Patch Deployment for Development Tools",
+        'subject': "Security Patch Deployment",
         'action_name': "Download Security Patch"
     },
     'Developer_1': {
         'email': os.getenv('DEVELOPER_1_EMAIL'),
         'password': os.getenv('DEVELOPER_1_PASSWORD'),
         'template': 'developer_template.html',
-        'subject': "Security Patch Deployment for Development Tools",
+        'subject': "Security Patch Deployment",
         'action_name': "Download Security Patch"
     },
     'Account': {
